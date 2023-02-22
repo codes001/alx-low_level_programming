@@ -1,18 +1,20 @@
 #include "main.h"
 /**
- * main - function to execute the block of code
- *
- * Return: 0 (success)
+ * main - main function
+ * _putchar: Print the alphabets putchar
+ * Return: Always 0
  */
+
 int main(void)
 {
-	char c[8] = "_putchar";
-	unsigned int i;
-
-	for (i = 0; i < sizeof(c); i++)
-	{
-		_putchar(c[i]);
-	}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 _putchar('\n');
 return (0);
 }
